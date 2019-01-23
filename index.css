@@ -1,0 +1,27 @@
+body {
+    max-width: 1vw;
+    max-height: 1vh;
+    overflow: hidden;
+}
+
+.live {
+    background-color: black;
+}
+
+.dead {
+    background-color: white;
+}
+
+.element{
+    border: lightgrey dotted 1px ;
+    box-sizing: border-box;
+}
+
+.vertical-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, autofit);
+}
+
+.horizontal-wrapper {
+    display: grid;
+}
